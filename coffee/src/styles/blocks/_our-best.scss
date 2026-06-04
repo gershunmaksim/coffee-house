@@ -1,0 +1,92 @@
+.paperBg {
+  width: 100%;
+  height: 100%;
+}
+
+.our-best__container {
+  padding: 80px 518px 110px 518px;
+  min-height: 495px;
+  background-image: url('../../assets/img/paper_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.coffee__card {
+  border-radius: 8px;
+  padding: 22px 20px 22px 20px;
+  background: #FFFFFFA6;
+  width: 220px;
+  height: 240px;
+  &__title {
+    color: black;
+    margin-top: 14px;
+    font-family: Merienda;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+  }
+  &__price {
+    color: black;
+    margin-top: 10px;
+    font-family: Merienda;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: right;
+  }
+}
+
+.coffee__wrapper {
+  display: flex;
+  margin-top: 39px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 35px;
+}
+
+.best__title {
+  color: black;
+  font-family: Merienda;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.main__footer {
+  background-color: #fff;
+  min-height: 150px;
+  padding: 30px 543px 21px 543px;
+}
+
+.footer__navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.footer__link_btn {
+  color: black;
+  background: none;
+  border: none;
+}
+
+.footer__navigation__btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-right: 40px;
+}
+
+.footer__logo_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}

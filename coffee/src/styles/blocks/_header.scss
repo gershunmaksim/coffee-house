@@ -1,0 +1,30 @@
+.header {
+  padding: 30px 400px 84px 400px;
+  background-image: url('../../assets/img/second_main_bg.png');
+  min-height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.header__title__block {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header__title {
+  color: white;
+  font-family: Merienda;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+}

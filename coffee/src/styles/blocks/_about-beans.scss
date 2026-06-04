@@ -1,0 +1,42 @@
+.about__block {
+  // height: 100%;
+  // width: 100%;
+  background-color: #fff;
+  padding: 70px 592px 60px 592px;
+}
+
+.about__beans__wrapper {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 79px;
+}
+
+.about__beans__text {
+  color: black;
+  font-family: Merienda;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.about__beans__subtitle {
+  color: black;
+  font-family: Merienda;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  line-height: 100%;
+  margin-top: 26px;
+}
+
+.girl {
+  width: 272px;
+  height: 355px;
+}
+
+.long__divider {
+  display: flex;
+  justify-content: center;
+}

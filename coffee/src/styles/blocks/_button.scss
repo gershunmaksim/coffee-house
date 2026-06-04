@@ -1,0 +1,70 @@
+.container {
+  padding: 30px 400px 201px 400px;
+  min-height: 640px;
+  background-image: url('../../assets/img/main_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.link_btn {
+  background: none;
+  border: none;
+}
+
+.navigation__btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-right: 40px;
+}
+
+.title {
+  font-family: Merienda;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.subtitle {
+  font-family: Merienda;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.title__block {
+  margin-top: 111px;
+}
+
+.logo_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.beans {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.first__subtitle {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.second__subtitle {
+  margin-bottom: 18px;
+}
+
+.more_btn {
+  background: none;
+  padding: 5px 42px 10px;
+}

@@ -1,0 +1,26 @@
+.about__container {
+  background-color: #fff;
+  height: 520px;
+  text-align: center;
+  padding: 80px 675px 101px 675px;
+}
+
+.about__title {
+  color: black;
+  font-family: Merienda;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about__subtitle {
+  color: black;
+  margin-top: 41px;
+  font-family: Merienda;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
